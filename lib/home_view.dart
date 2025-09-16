@@ -12,7 +12,7 @@ class HomeView extends StatelessWidget {
         ? Get.find()
         : Get.put(HomeController());
     return Scaffold(
-      backgroundColor: Colors.white12,
+      backgroundColor: Colors.white10,
       body: GoogleMap(
         myLocationEnabled: true,
         trafficEnabled: true,
