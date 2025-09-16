@@ -12,6 +12,7 @@ class HomeView extends StatelessWidget {
         ? Get.find()
         : Get.put(HomeController());
     return Scaffold(
+      // commit 3 - new
       backgroundColor: Colors.white10,
       body: GoogleMap(
         myLocationEnabled: true,
